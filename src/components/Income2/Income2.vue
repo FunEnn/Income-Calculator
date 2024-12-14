@@ -340,7 +340,7 @@ export default {
 
         // 页面切换
         changePage() {
-            window.location.href = "/"
+            this.$router.push('/')
         }
     },
 
