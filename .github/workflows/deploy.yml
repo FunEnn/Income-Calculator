@@ -31,3 +31,10 @@ jobs:
         with:
           folder: dist
           branch: gh-pages
+          clean: true
+          single-commit: true
+
+      - name: Wait for GitHub Pages
+        run: |
+          echo "等待 GitHub Pages 部署..."
+          sleep 60
