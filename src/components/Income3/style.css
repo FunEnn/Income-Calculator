@@ -1,0 +1,384 @@
+html,
+body,
+div,
+span,
+iframe,
+map,
+font,
+img,
+a img,
+samp,
+strong,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+p,
+blockquote,
+a,
+address,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+tr,
+td,
+th {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-weight: normal;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+.label {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+div,
+ul,
+li,
+input {
+    box-sizing: border-box;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 8.5px;
+    list-style: none;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+}
+
+header .welcome {
+    position: absolute;
+    color: #0c2ba5;
+    text-align: left;
+    margin-left: 250px;
+    font-size: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+
+header .change {
+    position: absolute;
+    top: 3%;
+    right: 20%;
+    background-color: #314ec1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+header .change:hover {
+    background-color: #16419c;
+}
+
+header .change a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: #6073c1;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 17px;
+    border: 1px solid transparent;
+}
+
+.navbar ul {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    height: 100%;
+    transition: all 0.1s;
+    font-size: 12px;
+}
+
+.navbar ul li a {
+    height: 100%;
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #252525;
+    box-sizing: border-box;
+}
+
+.navbar ul li a:hover {
+    background: #36488e;
+    /* 悬停时的背景颜色 */
+    color: #fff;
+    /* 悬停时的文字颜色 */
+}
+
+.main_content {
+    width: 1500px;
+    margin: 25px auto;
+    padding: 0 0 20px 0;
+}
+
+.main_content .main_page {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.main_content .main_page .main_comput {
+    width: 802px;
+    border: 1px solid #e4e7f4;
+    padding: 18px 25px 28px 25px;
+    overflow: hidden;
+    background: #d3d1ff;
+}
+
+.main_content .main_page .main_comput .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_content .main_page .main_comput .box .showboxs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_content .main_page .main_comput .box .showboxs .item {
+    width: 330px;
+    padding-top: 10px;
+}
+
+.main_content .main_page .main_comput .box .showboxs .item h3 {
+    font-size: 18px;
+    color: #575757;
+    display: inline-block;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #5b71f8;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.main_content .main_page .main_comput .box .showboxs .item .label {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 41px;
+}
+
+.main_content .main_page .main_comput .box .showboxs .item .label span {
+    display: flex;
+    align-items: center;
+    width: 210px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.main_content .main_page .main_comput .box .showboxs .item .label span em {
+    color: #fa2525;
+}
+
+.main_content .main_page .main_comput .box .showboxs .item .label p {
+    font-size: 16px;
+    color: #333333;
+}
+
+.main_content .main_page .main_comput .box .showboxs .item .label .change {
+    width: 210px;
+    height: 41px;
+    border: 2px solid #e2e2e2;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.main_content .main_page .main_comput .box .showboxs .item .label .change input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333333;
+    padding-left: 10px;
+    background: none;
+}
+
+.main_content .main_page .main_comput .button {
+    overflow: hidden;
+    margin-top: 25px;
+    padding-left: 118px;
+}
+
+.main_content .main_page .main_comput .button .btn {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.main_content .main_page .main_comput .button .btn div {
+    overflow: hidden;
+    width: 164px;
+    height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 22px;
+    display: flex;
+    background: #39d17b;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_content .main_page .main_comput .button .btn div span {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.main_content .main_page .main_comput .button .btn div:last-child {
+    background: #5b71f8;
+}
+
+.main_content .main_page .right_box {
+    border: 1px solid #e4e7f4;
+    padding: 18px 25px 28px 25px;
+    overflow: hidden;
+    background: #d3d1ff;
+    width: 650px;
+}
+
+.main_content .main_page .right_box .label {
+    overflow: hidden;
+}
+
+.main_content .main_page .right_box .label .tit {
+    height: 66px;
+    position: relative;
+    border-bottom: 2px solid #e1e1e1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.main_content .main_page .right_box .label .tit .child {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.main_content .main_page .right_box .label .tit .child div {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #1e2c99;
+    margin-right: 14px;
+}
+
+.main_content .main_page .right_box .label .tit .child p {
+    font-size: 20px;
+    color: #333333;
+}
+
+.main_content .main_page .right_box .label .tit .child ::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #1e2c99;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+}
+
+.main_content .main_page .right_box .label .box {
+    white-space: normal;
+    word-break: break-all;
+    overflow: auto;
+    padding: 30px;
+}
+
+.main_content .main_page .right_box .label .box .pcenter {
+    font-size: 16px;
+    color: #333333;
+    line-height: 28px;
+    text-align: center;
+}
+
+.main_content .main_page .right_box .label .box table {
+    width: 100%;
+    border: none;
+    margin-top: 30px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.main_content .main_page .right_box .label .box table tr:nth-child(odd) {
+    background: #9190ed;
+}
+
+.main_content .main_page .right_box .label .box table tr {
+    width: 100%;
+}
+
+.main_content .main_page .right_box .label .box table tr th {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size: 15px;
+    color: #333333;
+    height: 43px;
+    background: #9190ed;
+    text-align: center;
+}
+
+.main_content .main_page .right_box .label .box table tr td {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size: 15px;
+    color: #333333;
+    height: 43px;
+    text-align: center;
+}
