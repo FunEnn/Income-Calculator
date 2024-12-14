@@ -1,6 +1,6 @@
 import {
   createRouter,
-  createWebHistory
+  createWebHashHistory
 } from 'vue-router'
 import Income1 from '../components/Income1/Income1.vue'
 import Income2 from '../components/Income2/Income2.vue'
@@ -24,7 +24,7 @@ const routes = [{
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory('/Income-Calculator/'),
   routes
 })
 
